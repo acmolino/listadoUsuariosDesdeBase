@@ -122,6 +122,7 @@ function mostrarModal(pos) {
 // Cerrar el modal
 function cerrarModal() {
 	$('#modifModal').css("display", "none");
+	$('#btnGuardar').unbind('click');
 }
 
 // When the user clicks anywhere outside of the modal, close it
